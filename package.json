@@ -1,6 +1,6 @@
 {
   "name": "react-gifted-chat",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React Native Gifted Chat for React.JS",
   "main": "dist/index.js",
   "repository": {
