@@ -1,0 +1,66 @@
+{
+  "name": "react-gifted-chat",
+  "version": "1.0.0",
+  "description": "React Native Gifted Chat for React.JS",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batuhansahan/react-gifted-chat.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "messenger",
+    "message",
+    "chat"
+  ],
+  "author": "Batuhan Sahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batuhansahan/react-gifted-chat.git/issues"
+  },
+  "homepage": "https://github.com/batuhansahan/react-gifted-chat.git#readme",
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx",
+    "compile": "export BABEL_ENV='production' && rm -rf ./dist && mkdir dist &&  rollup -c -i src/index.js -o dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "7.1.0",
+    "@babel/runtime": "7.1.5",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "9.0.0",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-named-asset-import": "^0.2.3",
+    "babel-preset-react-app": "^6.1.0",
+    "eslint": "5.9.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-cooperka": "0.3.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-mocha": "^5.2.1",
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-react-native": "3.5.0",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-postcss": "^1.6.3"
+  },
+  "dependencies": {
+    "md5": "2.2.1",
+    "moment": "2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-app-polyfill": "^0.1.3",
+    "react-art": "^16.6.3",
+    "react-dev-utils": "^6.1.1",
+    "react-dom": "^16.6.3",
+    "react-image-lightbox": "^5.1.0",
+    "react-native-web": "0.9.9",
+    "shallowequal": "1.1.0",
+    "uuid": "3.3.2"
+  },
+  "peerDependencies": {}
+}
