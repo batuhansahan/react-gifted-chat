@@ -2,6 +2,8 @@
 
 React implementation forked and edited from react-native-gifted-chat 
 
+![](https://i.ibb.co/gvXX0L4/example.png)
+
 # Installation
 
 
