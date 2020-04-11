@@ -195,6 +195,7 @@ class GiftedChat extends React.Component {
       <div style={{
         height: `calc(100% - ${this.state.composerHeight}px)`,
         display: 'flex',
+        flexDirection: 'column'
       }}
       >
         <MessageContainer
